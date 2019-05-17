@@ -1,0 +1,96 @@
+@media (max-width: 1024px)
+{
+	#slogan
+	{
+		font-size: 0.72em;
+		top: 12%;
+		left:7%;
+	}
+	#slogan input[type="submit"]
+	{
+		width: 70px;
+		height: 35px;
+	}
+	#contact_form
+	{
+		opacity: 1;
+		position: relative;
+		width: 100%;
+		height: 650px;
+		margin: 0 auto;
+		padding-left: 0;
+
+
+	}
+
+	#contact_form h2, p, form
+	{
+		margin-left: 10%;
+	}
+	#contact iframe
+	{
+		position: relative;
+	}
+	#contact_top
+	{
+		visibility: hidden;
+		height: 0px;
+		
+	}
+	#contact_form h2
+	{
+		margin-top: 0;
+		padding-top: 25px;
+	}
+	.prev, .next
+	{
+		top: 20%;
+		width: 15px;
+		height: 20px;
+		padding: 5px 5px 5px 5px;
+	}	
+
+	
+
+}
+
+
+@media (max-width: 840px)
+{
+	nav a:hover
+	{
+	border-top: 3px solid #5CADD3;
+	animation-name: slidetop;
+	animation-duration: 400ms;
+	animation-timing-function: linear;
+	padding-top: 10px;
+	}
+	@keyframes slidetop {
+	0% {
+		padding-top: 0px;
+	}
+	50% {
+		padding-top: 5px;
+	}
+	100% {
+		padding-top: 10px;
+	}
+}
+}
+
+@media (max-width: 580px)
+{
+	#slogan input[type="submit"]
+	{
+		visibility: hidden;
+	}
+
+	#slogan
+	{
+		font-size: 0.43em;
+	}
+	.prev, .next
+	{
+		top: 15%;
+	}
+}

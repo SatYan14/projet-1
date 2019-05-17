@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebAgency | Créateur de sites qui vous correspondent !</title>
+	<link rel="icon" href="img/icon.ico" />
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="mesfonctions.js"></script>
+</head>
+<body>
+	<div id="bloc_page">	
+		<header>
+			
+			<!-- LOGO WEBAGENCY -->
+
+			<div id="logo">
+				<img src="img/logo.png" alt="logo">
+			</div>
+
+
+
+			<!-- MENU DE NAVIGATION -->
+
+
+			<nav>
+				<ul>
+					<li><a href="#slider">Accueil</a></li>			
+					<li><a href="#services">Services</a></li>			
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>			
+				</ul>
+			</nav>
+		</header>
+
+		<!-- SLIDER -->
+
+		<section id="slider">
+			
+			<img src="img/bg1.jpg" id="first" alt="slider_girl">
+			
+			
+			<!--<img src="img/bg2.jpg" id="second">-->
+			
+
+
+			<!--TEXTE DU SLIDER-->
+
+			<div id="slogan">
+				<h1><mark>WebAgency</mark> : L'agence de tous vos projets !</h1>
+				<p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+				<input type="submit" name="bouton" value="Plus d'infos">
+			</div>
+
+			<!--BOUTONS-->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+		</section>
+
+		<!-- SECTION SERVICES -->
+
+
+		<section id="services">
+			<h1>Nos services</h1>
+
+			<div id="trait">
+				<div class="bouton_bleu">
+				</div>
+			</div>
+			<p>WebAgency a réalisé une multitude de projets pour de nombreux clients.<br> L'ensemble de ces conceptions a été réalisé entre 1996 et aujourd'hui</p>
+			<div id="services_conteneur">
+
+
+				<div id="ordinateur">
+					<img src="img/main-feature.png" alt="illustration_ordinateur">
+				</div>
+				<div id="aside">
+					<div class="child">
+						<i class="fa fa-line-chart" style="font-size:34px; border: 1px solid #D5D5D5; border-radius: 50%;  color: #22B0B3"></i>
+						<div class="child2">
+							<h3>Notre équipe</h3>
+							<p>Composé d'experts spécialisés, WebAgency vous promet le site qui vous correspond.</p>
+						</div>
+					</div>
+					
+					
+					<div class="child">
+						<i class="fa fa-cubes" style="font-size:34px; border: 1px solid #D5D5D5; border-radius: 50%;  color: #22B0B3"></i>
+						<div class="child2">
+							<h3>Notre synergie</h3>
+							<p>Notre travail d'équipe nous permet d'obtenir les meilleurs résultats pour vous.</p>
+						</div>
+					</div>
+					
+					<div class="child">
+						<i class="fa fa-pie-chart" style="font-size:34px; border: 1px solid #D5D5D5; border-radius: 50%;  color: #22B0B3"></i>
+						<div class="child2">
+							<h3>Nos résultats</h3>
+							<p> 95% de nos clients obtiennent le résultat attendu dès la  première présentation</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<!-- SECTION PORTFOLIO -->
+
+		<section id="portfolio">
+
+			<h1>Nos projets</h1>
+			<div id="trait2">
+				<div class="bouton_bleu">
+				</div>
+			</div>
+
+			<p>Voici l'ensemble des projets que WebAgency a eu le plaisir de réaliser<br/> depuis sa création à aujourd'hui  :</p>
+
+			<div id="mini_nav">
+				<ul>
+					<li>Tous</li>
+					<li>Creatif</li>
+					<li>Collaboration</li>
+					<li>Portfolio</li>
+				</ul>
+				
+			</div>
+
+			<div id="conteneur">
+				<figure class="element">
+					<img src="img/01.jpg" alt="portfolio" />
+					<figcaption>
+						<h4>Opticien Legrandfou</h4>
+						<p>Vous recherchez des lunettes ?</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/02.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Livreur surprise !</h4>
+						<p>Vous recherchez un cadeau à offrir ?</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/03.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Pompadour les petits fours</h4>
+						<p>Des petits fours au top !</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/04.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Architect Luxe</h4>
+						<p>Un projet de maison ? </p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/05.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Bijouterie Blinbling</h4>
+						<p>Un bracelet qui brille ? On l'a ! </p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/06.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Japon Voyage</h4>
+						<p>Volez vers le pays du soleil levant !</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/07.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Design tech</h4>
+						<p>Un design à réaliser ? On est là !</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/08.jpg" alt="portfolio">
+					<figcaption>
+						<h4>Bureaucratie stuff</h4>
+						<p>On a tout ce qui vous faut !</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+
+				<figure class="element">
+					<img src="img/full.jpg" alt="portfolio">
+					<figcaption>
+						<h4>L'atelier du burger</h4>
+						<p>Fait maison, vos papilles reviendront !</p>
+						<div class="oeil"><i class="fa fa-eye"></i></div>
+					</figcaption>
+				</figure>
+			</div>
+
+
+		</section>
+
+
+
+		<!-- SECTION CONTACT -->
+		<section id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2624.2190189786575!2d2.3492783933929426!3d48.87310117000282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1519913782398"  style="border:0" allowfullscreen></iframe>
+
+			<div id="contact_top">
+
+			</div>
+			<div id="contact_form">
+				<h2>Contact Info</h2>
+				<p><strong>WebAgency SAS </strong></p>
+				<p>25 Rue d'Hauteville 75010 Paris</p> 
+				<p> Tel : 01 02 03 04 05</p>
+				<form method="post" action="#">
+					<p>
+						<input type="text" name="name" placeholder="Votre nom">
+					</p>
+					<p>
+						<input type="email" name="email" placeholder="Votre e-mail">
+					</p>
+					<p>
+						<input type="text" name="subject" placeholder="Sujet">
+					</p>
+					<p>
+						<textarea placeholder="Un commentaire ?"></textarea>
+					</p>
+					<p>
+						<input type="submit" name="bouton" value="Envoyez !">
+					</p>
+				</form>
+			</div>
+		</section>
+
+	</div>
+</body>
+</html>
